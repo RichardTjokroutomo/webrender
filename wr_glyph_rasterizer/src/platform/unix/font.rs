@@ -684,7 +684,7 @@ impl FontContext {
             }
             _ => return None,
         };
-        let mut advance = unsafe { (*slot).metrics.horiAdvance as f32 / 64.0 };
+        let mut advance = unsafe { (*slot).linearHoriAdvance as f32 / 65536.0 };
         if use_transform {
             if scale != 1.0 {
                 let x0 = left as f32 * scale;
