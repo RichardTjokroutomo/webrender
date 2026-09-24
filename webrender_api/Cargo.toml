@@ -14,7 +14,7 @@ deserialize = []
 display_list_stats = []
 
 [dependencies]
-app_units = "0.7.3"
+app_units = { git = "https://github.com/RichardTjokroutomo/app_units", branch = "increase-resolution"}
 bitflags = { version = "2", features = ["serde"] }
 byteorder = "1.2.1"
 euclid = { version = "0.22.6", features = ["serde"] }

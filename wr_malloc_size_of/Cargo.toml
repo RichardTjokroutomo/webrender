@@ -10,5 +10,5 @@ edition = "2018"
 path = "lib.rs"
 
 [dependencies]
-app_units = "0.7"
+app_units = { git = "https://github.com/RichardTjokroutomo/app_units.git", branch = "increase-resolution"}
 euclid = "0.22"

@@ -54,7 +54,7 @@ path = "yuv.rs"
 debug = ["webrender/capture", "webrender/profiler"]
 
 [dependencies]
-app_units = "0.7"
+app_units = { git = "https://github.com/RichardTjokroutomo/app_units", branch = "increase-resolution"}
 env_logger = { version = "0.10", default-features = false }
 euclid = "0.22"
 gleam = "0.15"
